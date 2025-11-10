@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="dev.danipraivet.app.Libros" table="Libros">
+        <meta attribute="class-description">
+            This class contains books of the library
+        </meta>
+        <id name="id" type="int" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="nombre" column="nombre" type="string"/>
+        <property name="codigoAutor" column="codigoAutor" type="int"/>
+        <property name="fechaLanzamiento" column="fechaLanzamiento" type="LocalDateTime"/>
+    </class>
+</hibernate-mapping>

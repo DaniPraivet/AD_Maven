@@ -5,15 +5,15 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/world</property>
+        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/libreria</property>
         <property name="connection.username">root</property>
         <property name="connection.password">usuario</property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.show.sql">true</property>
 
         <mapping resource="Dim_Language.hbm.xml"/>
-        <mapping class="dev.danipraivet.Dim_Language"/>
+        <mapping class="dev.danipraivet.app.Dim_Language"/>
         <mapping resource="City.hbm.xml"/>
-        <mapping class="dev.danipraivet.city"/>
+        <mapping class="dev.danipraivet.app.city"/>
     </session-factory>
 </hibernate-configuration>

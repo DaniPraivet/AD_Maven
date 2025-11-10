@@ -1,4 +1,4 @@
-package dev.danipraivet;
+package dev.danipraivet.app;
 
 import jakarta.persistence.Table;
 import jakarta.persistence.Entity;
