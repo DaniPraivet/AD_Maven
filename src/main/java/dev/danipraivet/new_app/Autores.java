@@ -12,14 +12,14 @@ public class Autores {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "nombre", length = 100)
+    @Column(name = "nombre", length = 50)
     private String nombre;
 
     @Column(name = "apellido", length = 50)
     private String apellido;
 
     @Column(name = "nacionalidad", length = 50)
-    private String language;
+    private String nacionalidad;
 
     public int getId() {
         return id;
@@ -45,11 +45,21 @@ public class Autores {
         this.apellido = apellido;
     }
 
-    public String getLanguage() {
-        return language;
+    public String getNacionalidad() {
+        return nacionalidad;
     }
 
-    public void setLanguage(String language) {
-        this.language = language;
+    public void setNacionalidad(String nacionalidad) {
+        this.nacionalidad = nacionalidad;
+    }
+
+    @Override
+    public String toString() {
+        return "Autores{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", nacionalidad='" + nacionalidad + '\'' +
+                '}';
     }
 }

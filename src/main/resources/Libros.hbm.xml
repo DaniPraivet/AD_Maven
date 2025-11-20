@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="dev.danipraivet.app.Libros" table="Libros">
+    <class name="dev.danipraivet.new_app.Libros" table="Libros">
         <meta attribute="class-description">
             This class contains books of the library
         </meta>

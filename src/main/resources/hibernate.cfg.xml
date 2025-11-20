@@ -15,5 +15,10 @@
         <mapping class="dev.danipraivet.app.Dim_Language"/>
         <mapping resource="City.hbm.xml"/>
         <mapping class="dev.danipraivet.app.city"/>
+
+        <mapping resource="Autores.hbm.xml"/>
+        <mapping class="dev.danipraivet.new_app.Autores"/>
+        <mapping resource="Libros.hbm.xml"/>
+        <mapping class="dev.danipraivet.new_app.Libros"/>
     </session-factory>
 </hibernate-configuration>

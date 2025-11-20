@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="dev.danipraivet.app.Autores" table="Autores">
+    <class name="dev.danipraivet.new_app.Autores" table="Autores">
         <meta attribute="class-description">
             This class contains authors of the library
         </meta>
